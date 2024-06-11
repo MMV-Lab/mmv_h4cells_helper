@@ -4,11 +4,19 @@ This repository contains supplementary scripts for preparing data for the [MMV_H
 
 ## Installation
 
-## Installation
-
 1. **Set up the environment**:
 
     - Install [Anaconda](https://www.anaconda.com/download/success).
+    - Clone this repository to your local machine:
+        ```bash
+        git clone https://github.com/MMV-Lab/mmv_h4cells_helper.git
+        ```
+
+    - Navigate to the cloned repository:
+        ```bash
+        cd mmv_h4cells_helper
+        ```
+
     - Create a new environment:
         ```bash
         conda create --name mmv_h4cells_helper python=3.9
@@ -22,6 +30,7 @@ This repository contains supplementary scripts for preparing data for the [MMV_H
 
 3. **Optional: GPU support**:
     If you wish to use GPU for faster computation, follow the instructions provided [here](https://github.com/MouseLand/cellpose?tab=readme-ov-file#gpu-version-cuda-on-windows-or-linux) to install the GPU version of the required libraries.
+
 
 ## Usage
 
