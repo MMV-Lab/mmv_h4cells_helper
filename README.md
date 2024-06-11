@@ -6,11 +6,14 @@ This repository contains supplementary scripts for preparing data for the [MMV_H
 
 1. **Set up the environment**:
 
-    - Install [Anaconda](https://www.anaconda.com/download/success).
+    - Install [Anaconda](https://www.anaconda.com/download/success). 
+        - If you've never heard of Anaconda, [this](https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html) or [this](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf) might be helpful.
     - Clone this repository to your local machine:
         ```bash
         git clone https://github.com/MMV-Lab/mmv_h4cells_helper.git
         ```
+
+        If you don't have Git installed, you can alternatively download the repository as a ZIP file. Click on the green "Code" button at the top of the repository page, select "Download ZIP", and then unzip the downloaded file.
 
     - Navigate to the cloned repository:
         ```bash
