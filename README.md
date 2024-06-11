@@ -25,7 +25,7 @@ This repository contains supplementary scripts for preparing data for the [MMV_H
 
 ## Usage
 
-To execute the scripts, follow these steps:
+An example data file (`data\raw\sample.tif`) in the `data` directory can be used to run the scripts and understand the workflow. To execute the scripts, follow these steps:
 
 1. **Change to the directory containing the scripts**:
     Make sure to adjust the path to the directory where you have cloned this repository.
@@ -51,7 +51,12 @@ To execute the scripts, follow these steps:
         ```bash
         python get_double_positives.py
         ```
-    - The masks will be exported to the `results` folder and can be opened and further processed using napari and the `MMV_H4Cells` plugin.
+    - The mask will be exported to the `results` folder and can be opened and further processed using napari and the `MMV_H4Cells` plugin.
+
+
+4. **Custom Data**:
+
+    - To process your own `.tif` files, simply place them in the `data/raw/` directory.
 
 ## License
 

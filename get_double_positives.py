@@ -45,6 +45,7 @@ def process_file(fn):
 
 def main():
     fns = list(Path('data', 'nuclei').glob('*.tif*'))
+    Path('results').mkdir(exist_ok=True, parents=True) # Create results folder if it doesn't exist
     
     for fn in tqdm(fns):
         start = time.time()
