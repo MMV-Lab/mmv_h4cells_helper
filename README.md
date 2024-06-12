@@ -28,9 +28,17 @@ This repository contains supplementary scripts for preparing data for the [MMV_H
         ```
 
 2. **Install the required dependencies**:
-    ```bash
-    pip install -r requirements.txt
-    ```
+
+    - Install `cellpose` and `aicsimageio` via `pip`:
+        ```bash
+        pip install cellpose aicsimageio
+        ```
+
+    - If you encounter any issues with the installation, you can alternatively use the `requirements.txt` file:
+        ```bash
+        pip install -r requirements.txt
+        ```
+        In this case, you might need to create a new environment as described above.
 
 3. **Optional: GPU support**:
     If you wish to use GPU for faster computation, follow the instructions provided [here](https://github.com/MouseLand/cellpose?tab=readme-ov-file#gpu-version-cuda-on-windows-or-linux) to install the GPU version of the required libraries.
